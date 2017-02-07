@@ -1,0 +1,33 @@
+How did viewing a diff between two files help you spot the bug?
+
+In comparing the difference in content between older and newer version, the bugs become obvious which would otherwise have taken time to debug.  This also should be the first step in debugging the code before the actual debugging by running the application with breakpoints.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Over the many releases of our application, the same files will go through lot of changes.  It will be modified by more than one developer. So, when we have to debug code and look into such files for changes done over the releases and within the same release, it would be lot easier and efficient to make use of version history to compare changes and quickly narrow down part of the problem code and to find out the time line of the change that caused the bug.  Any tool that helps us do this will save a lot of manual effort involved.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+Clarity of changes.  
+Easily readable.
+Easy to figure out bugs, if the commits are logical
+
+Cons:
+Forgetting to commit will make the commits too big
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is predominantly for software version control.  So, it is logical to commit all the files in the repository during each commit as the changes could all be related. Whereas, in case of docs the changes are mostly independent of each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By using git log, we can see all the commits to the file.  By doing git diff between two commit ids, we can find out the differences in the two versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+By doing a checkout, I can get to previous commits and find out which one introduced the bug.  This gives me confidence to make changes to my code as I know I can figure out the bug just by doing a checkout.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+For my web app and mobile app development
