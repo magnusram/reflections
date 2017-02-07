@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 .git metadata folder is created, which is an hidden folder.  Also, the branch name is master for the newly initialized repository.  None of the files in the repository are tracked yet.  We can use 'git add' to track the items.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Items in the Staging area are tracked in contrast to the working directory
+Once committed, the files are added to the repository
+We can reset the staging area but not the repository
