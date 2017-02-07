@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+.git metadata folder is created, which is an hidden folder.  Also, the branch name is master for the newly initialized repository.  None of the files in the repository are tracked yet.  We can use 'git add' to track the items.
