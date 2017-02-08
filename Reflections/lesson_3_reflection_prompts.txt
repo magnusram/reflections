@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+--Easily compare the changes of the local commit before pushing it to the remote.  Also, we can refresh the local copy of the remote with the changes from remote and then we can merge our commit after seeing the difference.  This will help us finding any conflicting changes before merging.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
