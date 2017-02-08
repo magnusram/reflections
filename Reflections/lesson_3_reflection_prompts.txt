@@ -28,4 +28,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+--When I am working on an experimental feature, Proof of concepts, bug fixes or an entirely different feature.  This helps me in working independently while at the same time collaborate with others by way of creating pull request and merging my changes to the origin/master and then pulling the changes to local master.  Finally, I can merge my changes with the master and push it to GitHub.
